@@ -1,0 +1,137 @@
+23.6 Wednesday 12-2
+Discussed basic plan for the timeline for Milestone 1
+We discussed the specifics for epic and user stories Improve character; Facilitate character; Win game; Obstacles to winning
+Discussed questions we had on what to include in the user stories next tutorial
+Also discussed basic ideas on how we would implement the game with the ambiguities of the spec(example item degradation so prevent the character having all the equipment too early)
+
+27.6 Sunday 7-8
+Discussed what the plan was for completing Milestone 1
+Clarified what would be included in the user stories
+Discussed plans for the UI and gameplay mechanics
+Elliot would write the UML diagram
+Eddy making the wireframe
+Kevin completing the UI
+Hugo writing the timeline for milestone 1/2 and helping with UI and finish the stories
+Set up discord to help with communication
+
+29.6 Tuesday 2.30-3.30
+Checked out Eddie's wireframes, discussed switching to bar health amount, including progress bar and level for weapons
+Discussed the layout of the UML diagram and possibility of having multiple weapons "boxes" to signify a reliance on weapons
+On opposite sides of the diagram.
+Discussed whether weapons levels should be able to be changed at the shop but decided it would undermine the benefit of picking up
+new weapons.
+Possibility of including stats in the inventory and the menu, enemies killed and time played
+Discussed mechanics of the trance allies difference to the barracks allies
+Discussed how shop overlay would appear on the screen
+Discussed how weapon level should appear on the overlay, whether it should be on the image; appear on the overlay when you hover the mouse over it; or if the specs should appear when you right click the shop.\
+Discussed the possibility of the number of laps till you can open the shop, this will appear seperate to the number of laps counter
+Discussed the movement of the mobs
+Discussed how turning zombies works with allied soldiers
+Discussed how the fight screen would look like in the UI
+
+1.7 Thursday 7-8:10
+Decided on final style for pause screen (displaying game mode and goals only when game is paused)
+Discussed how to draw item level on UI. 2 ideas that we came up with is overlaying text over the picture or just having 10 seperate pictures. Elliot emailed Matthew to ask about thais
+Added several interfaces to UML diagram (for weapon, armour and enemies). Kevin will take over from Elliot and make more changes before we submit
+Hugo and Elliot will take over from Kevin and tweak assumption criterias, as well as add story points and priorities to each user story
+Eddy is working on redesigning pause menu, relocating card inventory and adding levels to items
+Plan to meet up again on Friday (at about 3) for a final check to make sure everything is working
+Everyone is going to add assumptions, and then we'll add them all in a big dump to limit unnecessary commits
+Hugo will finalise the schedule for Milestone 2 based off the priorities of User Stories
+
+2.7 Friday 10-11
+We realised acceptance criteria need to be a lot more specific (e.g. show amount of gold dropped by enemies)
+Spent an hour deciding on health, damage, gold drops, experience drops and item scaling
+Went through forum to figure out why player could place vampire castle and zombie pits
+
+8.7 Thursday 3.30-5.30
+Discussed which patterns to use and specifics of composite pattern for enemies
+And what strategy would be used for items
+discussed avoiding keeping to lsp principle and made weapons class and protection class abstract
+discussed to how to make the story tests and to go to a help session on Saturday
+Stressed need to update unit tests
+Started with minutes for help session
+how pathPosition is meant to work
+discussed using branches
+discussed which patterns we are using in the 2nd stage
+
+13.7 Tuesday 12-1
+Discussed how allied soldiers would be displayed desided their would be an integerproperty that would 
+store how many allied soldiers are alive and that many allied soldiers would be made visible
+Discussed character gold would be stored as an integerproperty and be bound bidirectionally for the front end 
+store and back gaining gold from fights
+discussed how we would deal with merge conflicts caused by git
+discussed storing and calling naturally spawning enemies, gold and artifically spawning enemy buildings 
+all be iterated through at time  the character passes through spawn
+
+15.7 Thursday 1-2
+Kevin worked on making fighting between enemies work 
+Hugo worked on making building classes and writing allies and bonus strategy for campfire
+Elliot worked on connecting the frontend and backend with LoopManiaController
+Eddy worked on the frontend
+
+17.7 Saturday 10-1
+Eddy worked on the front and backend of the shop
+Hugo worked on fixing and writing tests to improve coverage and fixing bugs
+Kevin worked on refactoring writing test writting battleRunner
+Elliot worked on integrationTest and controller
+Also went to a help session to ask questions we had about integrationTests and the frontend implementations
+
+*Note throughout the end of week 7 multiple hour long voice calls occured each day but not many formal meetings 
+occured 
+
+22.7 Thursday
+Discussed what extra features to add
+*map builder
+*music
+*purchase upgrade stats
+Things still to work on
+*Win screen
+*Frontend bugs
+*Fix drops
+*Random gold drops
+*Fix prices to work on level up
+extra features
+*Additional potions, strength
+Todo:
+Hugo -drop rates gold droping
+Eddy fixing bug, gamemodes splash screen and win page
+Elliot working on gamemode backend no confusing, and pricing for potion and items
+Kevin working on Mod 3 planning
+
+26.07 Monday
+1am
+Completed since last meeting
+Hugo drop rates, gold droping
+Eddy fixed visual bugs, and worked on gamemodes and win pages
+Elliot worked on the backend for the confusing mode, and the pricing bug
+Kevin worked on making the mod 3 bosses, and new rare items
+Todo:
+Hugo making tests for new features and add get loot for bosses and spawn conditions
+Eddy new world or continue, main menu frontend
+Elliot working on confusing game mode
+Kevin working on adding tests for new functionality tests
+discussed the extra features
+-maybe swapping music for sound effect
+-adding a thief mob
+-adding a building that compounds the players gold
+-adding addition weapons and chestplate
+-adding the nuke
+-adding a naturally occuring player trap
+
+29.07 Thursday
+Completed since last meeting
+added beserkmode
+added nuke
+added confusion mode
+added additional tests
+added win page
+implemented save
+Todo:
+Hugo implement thief, bank, axe and unit tests
+Elliot story tests, invincibilty potion and thornmail
+Kevin Strength potion, totem, poop updating uml diagram
+Eddy new maps, SaveandLoad, file selector UI, WorldController logic put into backend
+
+
+

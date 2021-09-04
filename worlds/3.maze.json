@@ -1,0 +1,31 @@
+{
+    "width": 12,
+    "height": 14,
+    "rare_items": ["theonering", "anduril", "treestump", "nuke", "invinciblepotion"],
+    "goal-condition": { "goal": "AND", "subgoals":
+      [ { "goal": "bosses"},
+        { "goal": "AND", "subgoals":
+          [ {"goal": "experience", "quantity": 15000 },
+            {"goal": "gold", "quantity": 20000 }
+          ]
+        }
+      ]
+    },
+    "entities": [
+      {"x": 0, "y": 1, "type": "hero_castle"}
+    ],
+    "path": {
+      "type": "path_tile",
+      "x": 0, "y": 1,
+      "path": [
+        "RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT",
+        "DOWN","DOWN","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT",
+        "DOWN","DOWN","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT",
+        "DOWN","DOWN","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT",
+        "DOWN","DOWN","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT","RIGHT",
+        "DOWN","DOWN","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT","LEFT", "LEFT",
+        "UP","UP","UP","UP","UP","UP","UP","UP","UP","UP"
+      ]
+    }
+  }
+  

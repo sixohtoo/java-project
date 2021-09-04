@@ -1,0 +1,19 @@
+{
+    "width": 5,
+    "height": 14,
+    "rare_items": ["anduril", "theonering", "treestump", "nuke", "invinciblepotion"],
+    "goal-condition": {"goal": "experience", "quantity": 123456 },
+    "entities": [
+        {"x": 0, "y": 0, "type": "hero_castle"},
+        {"x": 1, "y": 1, "type": "barracks"},
+        {"x": 0, "y": 1, "type": "barracks"},
+        {"x": 1, "y": 0, "type": "village"}
+    ],
+    "path": {
+        "type": "path_tile",
+        "x": 0, "y": 0,
+        "path": [
+            "RIGHT", "DOWN", "LEFT", "UP"
+        ]
+    }
+}

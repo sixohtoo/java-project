@@ -1,0 +1,24 @@
+{
+    "width": 8,
+    "height": 14,
+    "rare_items": ["theonering", "anduril", "treestump"],
+    "goal-condition": {"goal": "experience", "quantity": 123456 },
+    "entities": [
+        {"x": 0, "y": 0, "type": "hero_castle"},
+        {"x": 1, "y": 0, "type": "barracks"},
+        {"x": 2, "y": 0, "type": "barracks"},
+        {"x": 3, "y": 0, "type": "barracks"},
+        {"x": 3, "y": 1, "type": "village"},
+        {"x": 3, "y": 2, "type": "village"},
+        {"x": 1, "y": 2, "type": "vampirecastle"},
+        {"x": 1, "y": 4, "type": "campfire"}
+
+    ],
+    "path": {
+        "type": "path_tile",
+        "x": 0, "y": 0,
+        "path": [
+            "RIGHT", "RIGHT", "RIGHT", "DOWN", "DOWN", "DOWN", "LEFT", "LEFT", "LEFT", "UP", "UP", "UP"
+        ]
+    }
+}

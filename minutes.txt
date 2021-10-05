@@ -12,7 +12,7 @@ Elliot would write the UML diagram
 Eddy making the wireframe
 Kevin completing the UI
 Hugo writing the timeline for milestone 1/2 and helping with UI and finish the stories
-Set up discord to help with communication
+Set up discord to help with communications
 
 29.6 Tuesday 2.30-3.30
 Checked out Eddie's wireframes, discussed switching to bar health amount, including progress bar and level for weapons
